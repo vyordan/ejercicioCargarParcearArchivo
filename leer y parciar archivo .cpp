@@ -41,7 +41,7 @@ int main(){
 
 void cargarDatos(vendedor vendedores[], int vendedoresTotales){
     ifstream archivo; 
-    string direccionArchivo = "C:\\Users\\CompuFire\\Desktop\\Ejercicios de Archivos\\CargarParcearArchivos\\datos2025.csv";
+    string direccionArchivo = "datos2025.csv";
     archivo.open(direccionArchivo, ios::in);
     
     if (archivo.fail())
